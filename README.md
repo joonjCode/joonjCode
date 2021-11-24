@@ -1,5 +1,5 @@
 <h1 align="left">Hi 👋, I'm Joon</h1>
-<h3 align="left">PYTHON DEVELOPER && Devops Engineer</h3>
+<h3 align="left">Python developer && Devops Engineer</h3>
 
 <p align="left">
 <h3 align="left">Connect with me:</h3>
