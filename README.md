@@ -19,11 +19,11 @@
 <p align="left"> 
 <ul>
   <li>Python</li>
-  <li>Java</li>
+  <li>Kubernetes</li>
+  <li>Prometheus/Grafana</li>
   <li>AWS</li>
   <li>Go</li>
   <li>Django / Flask</li>
-  <li>Electron</li>
 <il>
 </p>
 
