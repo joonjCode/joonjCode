@@ -25,5 +25,6 @@ jobs:
           plugin_habits_charts: yes
           config_timezone: Asia/Seoul
           plugin_followup: yes
-          base: repositories
+          base: header, activity, community, repositories, metadata
           plugin_traffic: yes
+          config_order: base.header, base.activity+community, base.repositories, isocalendar, languages, habits, followup
