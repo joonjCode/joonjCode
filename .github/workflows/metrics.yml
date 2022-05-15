@@ -8,7 +8,8 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - uses: lowlighter/metrics@latest
+      - name: Create metrics 
+        uses: lowlighter/metrics@latest
         with:
           # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_TOKEN }}
@@ -31,3 +32,5 @@ jobs:
           plugin_languages: yes
           plugin_languages_ignored: "PHP"
           plugin_traffic: yes
+      - name: Setup tmate session
+        uses: mxschmitt/action-tmate@v3
