@@ -20,4 +20,10 @@ jobs:
             html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell,
             gnuplot
           plugin_languages_limit: 5
-    
+          plugin_habits: yes
+          plugin_habits_facts: no
+          plugin_habits_charts: yes
+          config_timezone: Asia/Seoul
+          plugin_followup: yes
+          base: repositories
+          plugin_traffic: yes
